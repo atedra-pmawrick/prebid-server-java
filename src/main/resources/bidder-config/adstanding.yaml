@@ -1,0 +1,21 @@
+adapters:
+  adstanding:
+    enabled: false
+    endpoint: https://rtb.adstanding.com/ssp/prebid/bid?id=AUTH_HASH
+    pbs-enforces-gdpr: true
+    deprecated-names:
+    aliases:
+    meta-info:
+      maintainer-email: dev@atedra.com
+      app-media-types:
+      site-media-types:
+        - banner
+        - video
+      supported-vendors:
+      vendor-id: 0
+    usersync:
+      url: some.domain
+      redirect-url: /somepath
+      cookie-family-name: adstanding
+      type: redirect
+      support-cors: false

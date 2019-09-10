@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "AdStanding Adapter Params",
+  "description": "A schema which validates params accepted by the AdStanding adapter",
+  "type": "object",
+  "properties": {},
+  "required": []
+}
