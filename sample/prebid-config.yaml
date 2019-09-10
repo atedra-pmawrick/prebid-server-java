@@ -1,8 +1,7 @@
 adapters:
-  rubicon:
+  adstanding:
     enabled: true
-    XAPI.Username: user1
-    XAPI.Password: password1
+    endpoint: http://rtb-dev.test.adstanding.com/ssp/prebid/bid?id=AUTH_HASH
 metrics:
   prefix: prebid
 cache:
